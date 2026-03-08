@@ -9,10 +9,11 @@ This file defines the repository-wide rules and role boundaries for coding agent
 Use these sources in order:
 
 1. `docs/orchestrator/`
-2. `docs/ai/`
-3. `AGENTS.md`
-4. `.github/agents/`
-5. `local/` only when explicitly requested or referenced
+2. `docs/process/`
+3. `docs/ai/`
+4. `AGENTS.md`
+5. `.github/agents/`
+6. `local/` only when explicitly requested or referenced
 
 ## Repo Rules
 
@@ -35,6 +36,9 @@ Responsible for:
 - dependency mapping,
 - spec alignment,
 - implementation breakdown.
+
+Planner outputs should follow `docs/process/planning-contract.md`.
+Open questions should use the blocker taxonomy in `docs/process/decision-taxonomy.md`.
 
 Should avoid:
 
@@ -67,6 +71,8 @@ Should avoid:
 
 - rewriting code during review unless explicitly asked,
 - burying findings behind long summaries.
+
+When reviewing a plan, reviewers should use the severity labels in `docs/process/review-severity.md`.
 
 ## Default Working Pattern
 

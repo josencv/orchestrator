@@ -17,13 +17,16 @@ Your job is to make bounded changes that move the stage 1 orchestrator forward w
 - DO NOT skip tests or docs when behavior changes.
 - ONLY make changes that can be traced back to the repo spec or an explicit user request.
 
+If the task comes from a feature plan, preserve the first safe slice and explicit non-goals from that plan.
+
 ## Approach
 
 1. Read the relevant docs in `docs/orchestrator/` and `docs/ai/`.
-2. Identify the narrowest useful change.
-3. Implement through the existing architecture seams.
-4. Add or update tests and docs as needed.
-5. Report what changed, what was verified, and any remaining gaps.
+2. Read `docs/process/` when the task depends on a feature plan or implementation-preparation output.
+3. Identify the narrowest useful change.
+4. Implement through the existing architecture seams.
+5. Add or update tests and docs as needed.
+6. Report what changed, what was verified, and any remaining gaps.
 
 ## Output Format
 

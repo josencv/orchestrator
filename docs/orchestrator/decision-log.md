@@ -1,5 +1,7 @@
 # Decision Log
 
+Use `docs/process/decision-taxonomy.md` for the shared meanings of `Locked`, `Preferred`, `Provisional`, `Deferred`, and the related planning labels.
+
 This file classifies the major design choices that shape the stage 1 orchestrator.
 
 ## Decision Table

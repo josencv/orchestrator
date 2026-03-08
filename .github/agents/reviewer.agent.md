@@ -17,6 +17,8 @@ Your job is to review changes with a bug-finding and regression-finding mindset.
 - DO NOT drift away from the stage 1 spec when assessing changes.
 - ONLY report findings that matter to correctness, safety, maintainability, or test coverage.
 
+When reviewing plans or spec amendments, use the severity labels in `docs/process/review-severity.md`.
+
 ## Approach
 
 1. Read the relevant spec docs first.

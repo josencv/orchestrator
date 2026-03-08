@@ -15,10 +15,11 @@ Agents should improve the orchestrator itself, its docs, tests, and repo contrac
 When working in this repo, prefer sources in this order:
 
 1. `docs/orchestrator/`
-2. `docs/ai/`
-3. `AGENTS.md`
-4. `.github/agents/`
-5. `local/` working notes only when explicitly referenced
+2. `docs/process/`
+3. `docs/ai/`
+4. `AGENTS.md`
+5. `.github/agents/`
+6. `local/` working notes only when explicitly referenced
 
 ## Working Posture
 
@@ -59,6 +60,8 @@ Bad tasks for now:
 ## Documentation Rules
 
 When a change affects product behavior, update the relevant doc in `docs/orchestrator/`.
+
+When a change affects planning discipline, update the relevant doc in `docs/process/`.
 
 When a change affects agent behavior, update `docs/ai/`, `AGENTS.md`, or `.github/agents/` as needed.
 
