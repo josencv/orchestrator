@@ -19,7 +19,7 @@ Responsible for:
 Planned command shape:
 
 - `orchestrator run-once`
-- `orchestrator loop` later in stage 1
+- `orchestrator loop` later
 - `orchestrator inspect-run <run-id>` later if useful
 
 ### Run Coordinator

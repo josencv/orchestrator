@@ -2,9 +2,9 @@
 
 This repo uses a split documentation model:
 
-- `docs/orchestrator/` is the stage 1 source of truth for the orchestrator product.
+- `docs/orchestrator/` is the product source of truth for the orchestrator.
 - `docs/process/` defines how feature planning and planning review should work in this repo.
-- `docs/ai/` is a human-facing guide to repo AI workflows and operative Copilot files.
+- `docs/ai/` is a human-facing guide to repo AI workflows, navigability rules, and the shaping-to-delivery process.
 - `AGENTS.md` and `.github/agents/` are the executable repo rules and role definitions for Copilot.
 - `local/` is intentionally non-committed scratch space for shaping outputs, temporary notes, and review artifacts.
 
@@ -21,20 +21,20 @@ If you are new to the repo, read these in order:
 7. `docs/process/decision-taxonomy.md`
 8. `docs/process/review-severity.md`
 9. `docs/process/planning-cadence.md`
-10. `docs/ai/index.md`
-11. `AGENTS.md`
+10. `docs/process/implementation-preparation.md`
+11. `docs/ai/index.md`
+12. `docs/ai/repo-navigability.md`
+13. `docs/ai/coordination-workflow.md`
+14. `AGENTS.md`
 
 ## Reading Rules
 
-- Treat `docs/orchestrator/` as the stable spec for stage 1 unless a doc marks a section as provisional.
+- Treat `docs/orchestrator/` as the stable product spec unless a doc marks a section as provisional.
 - Treat `docs/process/` as the planning-process source of truth for shaping and reviewing feature plans.
 - Treat `docs/ai/` and `.github/` files as guidance for humans and coding agents working from that spec and process.
 - Treat `local/` files as non-authoritative working outputs unless they are promoted into `docs/`.
 
-## Stage Boundary
+## Scope
 
-This doc set is intentionally narrow.
-
-- Stage 1: covered here.
-- Stage 2 and stage 3: referenced only where they affect stage 1 decisions.
-- No runtime Godot harness design is specified here beyond boundary notes.
+This doc set covers the orchestrator product only.
+It does not define unrelated projects, game systems, or hosted services.

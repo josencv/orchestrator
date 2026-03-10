@@ -1,6 +1,6 @@
 # Orchestrator Docs
 
-These documents define the initial repository foundation for the stage 1 orchestrator.
+These documents define the initial repository foundation for the orchestrator.
 
 ## Navigation
 

@@ -6,9 +6,9 @@ The orchestrator is a local issue-driven agent runner.
 
 Its job is to take one eligible tracker issue, prepare an isolated working directory, invoke a coding-agent broker, capture evidence, update the tracker, and hand the result to a human reviewer.
 
-## Stage Boundary
+## Scope
 
-This repository defines stage 1 only.
+This repository defines the orchestrator product.
 
 It does not define:
 
@@ -32,7 +32,7 @@ It does not define:
 - Solving multi-worker scheduling in v0.
 - Designing full cross-platform support before one platform works.
 - Supporting multiple trackers or brokers in v0.
-- Encoding stage 2 runtime automation into stage 1.
+- Encoding runtime automation from other projects into the orchestrator.
 
 ## Intended Users
 

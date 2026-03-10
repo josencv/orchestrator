@@ -8,6 +8,8 @@ The broker adapter turns an issue run contract into one bounded coding-agent exe
 
 The first broker is Copilot CLI.
 
+The expected executable is the standalone `copilot` command.
+
 This is a product decision, not an incidental implementation detail.
 
 For v0, the Copilot integration contract is now locked at a simple subprocess level.
@@ -91,7 +93,7 @@ Examples:
 
 The first implementation should assume only this:
 
-- Copilot CLI is launched as a subprocess.
+- Copilot CLI is launched as the standalone `copilot` subprocess.
 - The subprocess runs with `cwd` set to the resolved issue workspace.
 - Prompt material is supplied inline or by file.
 - Stdout and stderr are both captured as artifacts.

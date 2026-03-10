@@ -114,28 +114,11 @@ Do not turn operator preferences into fake architecture questions.
 
 Prefer small navigable docs and bounded work units over a giant manifesto.
 
-## Implementation Preparation Output
+## Implementation Preparation
 
-Once a plan is accepted, implementation preparation should produce:
+Once a plan is accepted, the next step is implementation preparation.
 
-- issue-ready tasks,
-- dependency order,
-- expected files or modules touched,
-- acceptance criteria,
-- required tests or evidence,
-- designated agent role if relevant.
-
-## Issue Guidance
-
-Each issue generated from a plan should contain:
-
-- objective,
-- relevant spec references,
-- precise scope,
-- explicit non-goals,
-- acceptance criteria,
-- required evidence,
-- dependencies.
+See `docs/process/implementation-preparation.md` for the authoritative output contract.
 
 ## Update Rule
 

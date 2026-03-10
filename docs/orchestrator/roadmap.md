@@ -64,9 +64,9 @@ These remain visible because Symphony is directionally right about them, but the
 - stronger restart recovery without a database
 - more expressive workflow contracts
 
-## Stage 2 And 3 Notes
+## Future Project Notes
 
-The orchestrator should eventually support the Godot harness and the game repos, but stage 1 should not absorb their implementation complexity.
+The orchestrator should eventually support the Godot harness and the game repos, but v0 should not absorb their implementation complexity.
 
 The only current requirement from later stages is architectural cleanliness:
 

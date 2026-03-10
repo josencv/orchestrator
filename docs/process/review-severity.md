@@ -19,7 +19,7 @@ Every review comment should be classified as one of:
 A review comment is usually blocking only when it changes one of these:
 
 - the first safe slice,
-- the active stage boundary,
+- the active scope boundary,
 - the v0 scope,
 - the core architecture seams,
 - what is truly required to begin implementation safely.
